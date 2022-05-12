@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav
-            class="navbar navbar-expand-md shadow-sm mb-5"
+            class="navbar navbar-expand-md shadow-sm"
             v-bind:class="[
                 currentUser.user_type == '0' ? adminClass : userClass,
             ]"

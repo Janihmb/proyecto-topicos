@@ -6660,6 +6660,55 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -13239,7 +13288,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nimg[data-v-7a58fb79] {\n    cursor: pointer;\n}\n.modal-mask[data-v-7a58fb79] {\n    position: fixed;\n    z-index: 9998;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.5);\n    display: table;\n    transition: opacity 0.3s ease;\n}\n.modal-wrapper[data-v-7a58fb79] {\n    display: table-cell;\n    vertical-align: middle;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.jumbotron[data-v-7a58fb79] {\n    position: relative;\n    background: url(\"https://i.pinimg.com/originals/a7/fc/aa/a7fcaa43650adc892c401956a08dc32a.jpg\");\n    background-size: cover;\n    height: 95vh;\n}\n.jumbotron > .overlay[data-v-7a58fb79] {\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    background-color: rgba(0, 0, 0, 0.5);\n    z-index: 1;\n}\n.jumbotron > .inner[data-v-7a58fb79] {\n    position: relative;\n    z-index: 2;\n    color: white;\n    display: block;\n    text-align: center;\n    height: 90vh;\n}\n.parent[data-v-7a58fb79] {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n.button[data-v-7a58fb79] {\n    position: absolute;\n    bottom: 20px;\n    left: 0;\n    right: 0;\n    z-index: 2;\n    display: inline-block;\n    transform: translate(0, -50%);\n    color: #fff;\n    font: normal 400 20px/1 \"Josefin Sans\", sans-serif;\n    letter-spacing: 0.1em;\n    text-decoration: none;\n    transition: opacity 0.3s;\n}\n#section03 a[data-v-7a58fb79] {\n    padding-top: 60px;\n}\n#section03 a span[data-v-7a58fb79] {\n    position: absolute;\n    top: 0;\n    left: 50%;\n    width: 46px;\n    height: 46px;\n    margin-left: -23px;\n    border: 1px solid #fff;\n    border-radius: 100%;\n    box-sizing: border-box;\n}\n#section03 a span[data-v-7a58fb79]::after {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    content: \"\";\n    width: 16px;\n    height: 16px;\n    margin: -12px 0 0 -8px;\n    border-left: 1px solid #fff;\n    border-bottom: 1px solid #fff;\n    transform: rotate(-45deg);\n    box-sizing: border-box;\n}\n#section03 a span[data-v-7a58fb79]::before {\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: -1;\n    content: \"\";\n    width: 44px;\n    height: 44px;\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);\n    border-radius: 100%;\n    opacity: 0;\n    -webkit-animation: waveEffect-data-v-7a58fb79 2s infinite;\n            animation: waveEffect-data-v-7a58fb79 2s infinite;\n    box-sizing: border-box;\n}\n@-webkit-keyframes waveEffect-data-v-7a58fb79 {\n0% {\n        opacity: 0;\n}\n30% {\n        opacity: 1;\n}\n60% {\n        box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);\n        opacity: 0;\n}\n100% {\n        opacity: 0;\n}\n}\n@keyframes waveEffect-data-v-7a58fb79 {\n0% {\n        opacity: 0;\n}\n30% {\n        opacity: 1;\n}\n60% {\n        box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);\n        opacity: 0;\n}\n100% {\n        opacity: 0;\n}\n}\nimg[data-v-7a58fb79] {\n    cursor: pointer;\n}\n.modal-mask[data-v-7a58fb79] {\n    position: fixed;\n    z-index: 9998;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.5);\n    display: table;\n    transition: opacity 0.3s ease;\n}\n.modal-wrapper[data-v-7a58fb79] {\n    display: table-cell;\n    vertical-align: middle;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37016,7 +37065,7 @@ var render = function () {
       _c(
         "nav",
         {
-          staticClass: "navbar navbar-expand-md shadow-sm mb-5",
+          staticClass: "navbar navbar-expand-md shadow-sm",
           class: [
             _vm.currentUser.user_type == "0" ? _vm.adminClass : _vm.userClass,
           ],
@@ -37386,181 +37435,256 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "main-body" }, [
-      _c("div", { staticClass: "row gutters-sm" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "card mb-3" }, [
-            _c(
-              "div",
-              { staticClass: "row" },
-              [
-                _vm._l(_vm.projects, function (project, index) {
-                  return _c(
-                    "div",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: project.is_active,
-                          expression: "project.is_active",
-                        },
-                      ],
-                      key: index,
-                      staticClass: "col-lg-4 col-md-12 mb-4 mb-lg-0",
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "w-100 shadow-1-strong rounded mb-4",
-                        attrs: { src: project.img, alt: project.name },
-                        on: {
-                          click: function ($event) {
-                            return _vm.showModalEvent(project)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "container my-5", attrs: { id: "projects" } }, [
+      _c("h1", { staticClass: "text-center my-5" }, [
+        _vm._v("Nuestros Proyectos"),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "main-body" }, [
+        _c("div", { staticClass: "row gutters-sm" }, [
+          _c("div", { staticClass: "col-md-12" }, [
+            _c("div", { staticClass: "card mb-3" }, [
+              _c(
+                "div",
+                { staticClass: "row" },
+                [
+                  _vm._l(_vm.projects, function (project, index) {
+                    return _c(
+                      "div",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: project.is_active,
+                            expression: "project.is_active",
                           },
-                        },
-                      }),
-                    ]
-                  )
-                }),
-                _vm._v(" "),
-                _vm.showModal
-                  ? _c("div", [
-                      _c("div", { staticClass: "modal-mask" }, [
-                        _c("div", { staticClass: "modal-wrapper" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass: "modal-dialog modal-lg",
-                              attrs: { role: "document" },
+                        ],
+                        key: index,
+                        staticClass: "col-lg-4 col-md-12 mb-4 mb-lg-0",
+                      },
+                      [
+                        _c("img", {
+                          staticClass:
+                            "\n                                        w-100\n                                        shadow-1-strong\n                                        rounded\n                                        mb-4\n                                    ",
+                          attrs: { src: project.img, alt: project.name },
+                          on: {
+                            click: function ($event) {
+                              return _vm.showModalEvent(project)
                             },
-                            [
-                              _c("div", { staticClass: "modal-content" }, [
-                                _c("div", { staticClass: "modal-header" }, [
-                                  _c("h5", { staticClass: "modal-title" }, [
-                                    _vm._v(
-                                      "\n                                                    " +
-                                        _vm._s(_vm.modalData.name) +
-                                        "\n                                                "
-                                    ),
-                                  ]),
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "modal-body" }, [
-                                  _c("img", {
-                                    staticClass:
-                                      "\n                                                        w-100\n                                                        shadow-1-strong\n                                                        rounded\n                                                        mb-4\n                                                    ",
-                                    staticStyle: {
-                                      "max-height": "300px !important",
-                                      "object-fit": "contain",
-                                    },
-                                    attrs: {
-                                      src: _vm.modalData.img,
-                                      alt: _vm.modalData.name,
-                                    },
-                                  }),
-                                  _vm._v(" "),
-                                  _c("h4", [
-                                    _c("span", { staticClass: "text-muted" }, [
-                                      _vm._v("Titulo:"),
+                          },
+                        }),
+                      ]
+                    )
+                  }),
+                  _vm._v(" "),
+                  _vm.showModal
+                    ? _c("div", [
+                        _c("div", { staticClass: "modal-mask" }, [
+                          _c("div", { staticClass: "modal-wrapper" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass: "modal-dialog modal-lg",
+                                attrs: { role: "document" },
+                              },
+                              [
+                                _c("div", { staticClass: "modal-content" }, [
+                                  _c("div", { staticClass: "modal-header" }, [
+                                    _c("h5", { staticClass: "modal-title" }, [
+                                      _vm._v(
+                                        "\n                                                        " +
+                                          _vm._s(_vm.modalData.name) +
+                                          "\n                                                    "
+                                      ),
                                     ]),
-                                    _vm._v(
-                                      "\n                                                    " +
-                                        _vm._s(_vm.modalData.name) +
-                                        "\n                                                "
-                                    ),
                                   ]),
                                   _vm._v(" "),
-                                  _c("h4", [
-                                    _c("span", { staticClass: "text-muted" }, [
-                                      _vm._v("Categoria:"),
-                                    ]),
-                                    _vm._v(
-                                      "\n                                                    " +
-                                        _vm._s(_vm.modalData.category) +
-                                        "\n                                                "
-                                    ),
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("h4", [
-                                    _c("span", { staticClass: "text-muted" }, [
-                                      _vm._v("Subcategoria:"),
-                                    ]),
-                                    _vm._v(
-                                      "\n                                                    " +
-                                        _vm._s(_vm.modalData.sub_category) +
-                                        "\n                                                "
-                                    ),
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("h4", [
-                                    _c("span", { staticClass: "text-muted" }, [
-                                      _vm._v("Lenguaje/Framework:"),
-                                    ]),
-                                    _vm._v(
-                                      "\n                                                    " +
-                                        _vm._s(
-                                          _vm.modalData.language_framework
-                                        ) +
-                                        "\n                                                "
-                                    ),
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("h4", [
-                                    _c("span", { staticClass: "text-muted" }, [
-                                      _vm._v("Video:"),
+                                  _c("div", { staticClass: "modal-body" }, [
+                                    _c("img", {
+                                      staticClass:
+                                        "\n                                                            w-100\n                                                            shadow-1-strong\n                                                            rounded\n                                                            mb-4\n                                                        ",
+                                      staticStyle: {
+                                        "max-height": "300px !important",
+                                        "object-fit": "contain",
+                                      },
+                                      attrs: {
+                                        src: _vm.modalData.img,
+                                        alt: _vm.modalData.name,
+                                      },
+                                    }),
+                                    _vm._v(" "),
+                                    _c("h4", [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "\n                                                                text-muted\n                                                            ",
+                                        },
+                                        [_vm._v("Titulo:")]
+                                      ),
+                                      _vm._v(
+                                        "\n                                                        " +
+                                          _vm._s(_vm.modalData.name) +
+                                          "\n                                                    "
+                                      ),
                                     ]),
                                     _vm._v(" "),
+                                    _c("h4", [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "\n                                                                text-muted\n                                                            ",
+                                        },
+                                        [_vm._v("Categoria:")]
+                                      ),
+                                      _vm._v(
+                                        "\n                                                        " +
+                                          _vm._s(_vm.modalData.category) +
+                                          "\n                                                    "
+                                      ),
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h4", [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "\n                                                                text-muted\n                                                            ",
+                                        },
+                                        [_vm._v("Subcategoria:")]
+                                      ),
+                                      _vm._v(
+                                        "\n                                                        " +
+                                          _vm._s(_vm.modalData.sub_category) +
+                                          "\n                                                    "
+                                      ),
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h4", [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "\n                                                                text-muted\n                                                            ",
+                                        },
+                                        [_vm._v("Lenguaje/Framework:")]
+                                      ),
+                                      _vm._v(
+                                        "\n                                                        " +
+                                          _vm._s(
+                                            _vm.modalData.language_framework
+                                          ) +
+                                          "\n                                                    "
+                                      ),
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h4", [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "\n                                                                text-muted\n                                                            ",
+                                        },
+                                        [_vm._v("Video:")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          attrs: {
+                                            href: _vm.modalData.url,
+                                            target: "_blank",
+                                          },
+                                        },
+                                        [_vm._v("Ver Video")]
+                                      ),
+                                    ]),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "modal-footer" }, [
                                     _c(
-                                      "a",
+                                      "button",
                                       {
-                                        attrs: {
-                                          href: _vm.modalData.url,
-                                          target: "_blank",
+                                        staticClass:
+                                          "\n                                                            btn\n                                                            btn-secondary\n                                                        ",
+                                        attrs: { type: "button" },
+                                        on: {
+                                          click: function ($event) {
+                                            _vm.showModal = false
+                                          },
                                         },
                                       },
-                                      [_vm._v("Ver Video")]
+                                      [
+                                        _vm._v(
+                                          "\n                                                        Cerrar\n                                                    "
+                                        ),
+                                      ]
                                     ),
                                   ]),
                                 ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "modal-footer" }, [
-                                  _c(
-                                    "button",
-                                    {
-                                      staticClass:
-                                        "\n                                                        btn btn-secondary\n                                                    ",
-                                      attrs: { type: "button" },
-                                      on: {
-                                        click: function ($event) {
-                                          _vm.showModal = false
-                                        },
-                                      },
-                                    },
-                                    [
-                                      _vm._v(
-                                        "\n                                                    Cerrar\n                                                "
-                                      ),
-                                    ]
-                                  ),
-                                ]),
-                              ]),
-                            ]
-                          ),
+                              ]
+                            ),
+                          ]),
                         ]),
-                      ]),
-                    ])
-                  : _vm._e(),
-              ],
-              2
-            ),
+                      ])
+                    : _vm._e(),
+                ],
+                2
+              ),
+            ]),
           ]),
         ]),
       ]),
     ]),
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "jumbotron" }, [
+      _c("div", { staticClass: "overlay" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "inner" }, [
+        _c("div", { staticClass: "h-100 parent" }, [
+          _c("div", [
+            _c("h1", { staticClass: "display-3" }, [_vm._v("Hello, world!")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "lead" }, [
+              _vm._v(
+                "\n                        Proyecto en Laravel + Vue para la materia de Topicos Web\n                    "
+              ),
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("p", { staticClass: "lead" }, [_vm._v("Hecho con ❤️    ")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "lead" }, [
+              _c(
+                "section",
+                { staticClass: "demo", attrs: { id: "section03" } },
+                [
+                  _c(
+                    "a",
+                    { staticClass: "button", attrs: { href: "#projects" } },
+                    [_c("span"), _vm._v("Scroll")]
+                  ),
+                ]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
 render._withStripped = true
 
 
