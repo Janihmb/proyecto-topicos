@@ -31,6 +31,11 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <router-link to="/planes" class="nav-item nav-link"
+                                >Planes</router-link
+                            >
+                        </li>
                         <!-- Authentication Links -->
                         <li class="nav-item">
                             <router-link to="/login" class="nav-item nav-link"
@@ -58,6 +63,11 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <router-link to="/planes" class="nav-item nav-link"
+                                >Planes</router-link
+                            >
+                        </li>
                         <li class="nav-item">
                             <router-link
                                 v-if="currentUser.user_type == 0"

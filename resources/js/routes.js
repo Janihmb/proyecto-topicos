@@ -19,6 +19,9 @@ import EditUserProfile from "./views/users/edit.vue";
 import NewPassword from "./views/users/new-password.vue";
 import RegisterProjects from "./views/users/register-project.vue";
 
+//Pagos
+import Planes from './views/planes.vue'
+import Detalles from './views/detalles.vue'
 export default {
     mode: "history",
     fallback: true,
@@ -32,6 +35,16 @@ export default {
                     name: "projects",
                     path: "/",
                     component: Projects,
+                },
+                {
+                    name: "planes",
+                    path: "/planes",
+                    component: Planes,
+                },
+                {
+                    name: "detalles",
+                    path: "/detalles/:id",
+                    component: Detalles,
                 },
                 {
                     name: "register",
